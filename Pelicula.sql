@@ -3,6 +3,9 @@
 -- 1
 CREATE DATABASE 'peliculas';
 
+COPY peliculas FROM 'C:\Users\lliza\OneDrive\Escritorio\Back End - Javascript\Modulo 5 - Top 100\apis/peliculas.csv' csv header;
+COPY reparto FROM 'C:\Users\lliza\OneDrive\Escritorio\Back End - Javascript\Modulo 5 - Top 100\apis/reparto.csv' csv header;
+
 -- 2
 CREATE TABLE peliculas (
 	id SMALLINT PRIMARY KEY,
